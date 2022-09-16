@@ -15,7 +15,6 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function Quote() {
   return (
     <> 
-      <body>
       <div id="area">
 
         <Swiper
@@ -70,7 +69,6 @@ export default function Quote() {
         </SwiperSlide>
       </Swiper>
       </div>
-    </body>
     </>
   )
 }

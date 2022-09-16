@@ -3,8 +3,6 @@ import '../ComponentCss/Home.css'
 export default function Home() {
   return (
     <>
-    <html>
-        <body>
             <div className="bgimg-1">
                 <div className="caption">
                     <span className="border">BENEFITS OF MENTAL HEALTH</span>
@@ -43,8 +41,6 @@ export default function Home() {
                 <span className="border">The End</span>
                 </div>
             </div>
-        </body>
-    </html>
     </>
   )
 }
