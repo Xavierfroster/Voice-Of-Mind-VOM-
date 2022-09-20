@@ -10,7 +10,7 @@ export default function Navbar(props) {
               <a className="active" href="/">Home</a>
               <a href="Admin.js">Admin</a>
               <a href="Contact.js">Contact</a>
-              <a href="AboutUs.js">About</a>
+              <a href="AboutUS.js">About</a>
               <a href='Login.js'>Login</a>
               <a href='Register.js'>Sign Up</a>
             </div><br /><br /><br />

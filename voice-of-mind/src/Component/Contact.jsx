@@ -27,7 +27,7 @@ export default function Contact() {
             </div>
             <div className="column">
               <div className="imgalign">
-                <img src={C1} alt="Buddha-Pic" />
+                <img src={C1} alt="Buddha-Pic" width={350} />
               </div>
               <hr />
               <p>"Nothing can harm you as much as your own thoughts unguarded."</p>

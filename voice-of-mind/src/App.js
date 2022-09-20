@@ -8,6 +8,7 @@ import {
   Route,Routes
 } from "react-router-dom";
 import Quote from './Component/Quote';
+import AboutUs from './Component/AboutUs';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route exact path='/Contact.js' element={<Contact/>}/>
+          <Route exact path='/Contact.js' element={<Contact />} />
+          <Route exact path='/AboutUs.js' element={<AboutUs />} />
         </Routes>
       </Router>
     </>
